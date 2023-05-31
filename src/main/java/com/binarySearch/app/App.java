@@ -8,8 +8,8 @@ public class App
 {
     public static void main( String[] args )
     {
-      BinarySearch<Integer> a = new BinarySearch<Integer>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+      BinarySearch<Integer> a = new BinarySearch<Integer>();
 
-      a.SearchIndex(5);
+      System.out.println(a.searchIndex(Arrays.asList(1, 2, 3, 5, 4, 6, 7, 8, 9, 10),5));
     }
 }
